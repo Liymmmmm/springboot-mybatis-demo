@@ -27,7 +27,6 @@ public class CategoryController {
         return "listCategory";
     }
 
-
     @RequestMapping("/addCategory")
     public String listCategory(Category c) throws Exception{
         categoryMapper.save(c);
