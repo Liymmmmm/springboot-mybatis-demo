@@ -52,4 +52,5 @@ public class CategoryController {
         model.addAttribute("c", category);
         return "editCategory";
     }
+
 }
